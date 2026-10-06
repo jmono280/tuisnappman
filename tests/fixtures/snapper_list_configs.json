@@ -1,0 +1,12 @@
+{
+  "configs": [
+    {
+      "config": "home",
+      "subvolume": "/home"
+    },
+    {
+      "config": "root",
+      "subvolume": "/"
+    }
+  ]
+}

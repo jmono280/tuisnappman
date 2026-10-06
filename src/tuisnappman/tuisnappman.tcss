@@ -1,0 +1,38 @@
+ConfirmScreen, PromptScreen {
+    align: center middle;
+}
+
+.dialog {
+    width: 70;
+    height: auto;
+    padding: 1 2;
+    border: thick $primary;
+    background: $surface;
+}
+
+.dialog-title {
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+.command {
+    margin: 1 0;
+    color: $warning;
+}
+
+.buttons {
+    height: auto;
+    align-horizontal: right;
+}
+
+.buttons Button {
+    margin-left: 2;
+}
+
+#snapshots {
+    height: 1fr;
+}
+
+#usage {
+    padding: 1 2;
+}
